@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+      <div class="card col-6 offset-3 mt-5 p4">
+        <form [formGroup]="TacheForm">
+          <div class="form-group">
+            <label>Nom</label>
+            <input type="text" class="form-control" [formControl]="nom" />
+          </div>
+  
+          <div class="form-group">
+            <label>Description</label>
+            <textarea
+              class="form-control"
+              [formControl]="description"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          
+
+        </form>
+      </div>
+    </div>
+  
+    
+  
